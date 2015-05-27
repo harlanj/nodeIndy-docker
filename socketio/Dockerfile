@@ -8,4 +8,4 @@ cd /opt/harlaNet/socketio-example && npm install
 
 ADD supervisor.conf /etc/supervisor/conf.d/supervisor.conf
 EXPOSE 8080
-COMMAND "/usr/bin/supervisord"
+CMD "/usr/bin/supervisord"
